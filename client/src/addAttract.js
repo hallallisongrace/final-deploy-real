@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import './addattractions.css';
 import {BACKEND_URL} from './config';
 import { withRouter } from 'react-router-dom'
@@ -121,12 +122,12 @@ class addAttract extends Component {
     //     this.props.history.push('/attractions');
     //    console.log(attraction)
 
-    console.log(addAttract);
+    console.log(attraction);
 
-    axios.post('http://localhost:5000/attractions/add', addAttract)                
+    axios.post(BACKEND_URL + '/add', addAttract)                
     .then(res => console.log(res.data));
     
-    window.location = '/attractions:id';
+    window.location = '/attractions';
   }
     
     render() {

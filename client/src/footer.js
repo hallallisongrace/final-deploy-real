@@ -1,6 +1,6 @@
 import React from 'react';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './footer.css'
 // import github from './assets/assets/githubicon.png';
 // import linkedin from './assets/assets/linkedinicon.png';
@@ -48,7 +48,7 @@ class Footer extends React.Component
       </div>
       <div className="dropdown-container">
  <ul className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Seasons
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -59,7 +59,7 @@ class Footer extends React.Component
               </ul>
               </ul>
               <ul className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Destinations
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -70,7 +70,7 @@ class Footer extends React.Component
               </ul>
               </ul>
               <ul className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Experiences
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -84,7 +84,7 @@ class Footer extends React.Component
               <a className="nav-link" href="/attractions">View Attractions</a>
          </ul>
     
-          <h3 id="kable-title"></h3>
+          <h3 id="kable-title"> </h3>
         </div>
         </div>
 <div className="media-container" id="mediaIcons">

@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 // import React from 'React';
 import './home.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 // IMPORTS BELOW ARE FOR WEATHER APP 
 // import Weather from './app_component/weather.component'
-import 'weather-icons/css/weather-icons.css';
+// import 'weather-icons/css/weather-icons.css';
 // IMPORTS ABOVE ARE FOR WEATHER APP ^
 // for weather app
 // images below
@@ -16,7 +17,7 @@ import Night from './assets/Night.jpg';
 
 // const API_key = '61a77c269cf172ee908507307a3ccb9f';
 
-class Home extends React.Component{
+class Home extends Component{
 
   // constructor(){
   //   super();
@@ -119,25 +120,25 @@ class Home extends React.Component{
   {/* IMAGES BELOW */}
     <section className="container-fluid d-flex justify-content-end text-center mt-4">
       <div className="col-sm-8">
-      <img src={cityHall} className="img-thumbnail border border-light rounded"/>
+      <img src={cityHall} alt='' className="img-thumbnail border border-light rounded"/>
       <p className="mt-4 p-3 text-light">ndlightjendijneindine</p>
       </div>
     </section>
     <section className="container-fluid d-flex justify-content-start text-center mt-4">
       <div className="col-sm-8">
-      <img src={Museum} className="img-fluid border border-light rounded"/>
+      <img src={Museum} alt='' className="img-fluid border border-light rounded"/>
       <p className="mt-4 p-3 text-light">ndjendijneindine</p>
       </div>
     </section>
     <section className="container-fluid d-flex justify-content-end text-center mt-4">
       <div className="col-sm-8">
-      <img src={bridge} className="img-fluid border border-light rounded"/>
+      <img src={bridge} alt='' className="img-fluid border border-light rounded"/>
       <p className="mt-4 p-3 text-light">ndjendijneindine</p>
       </div>
     </section>
     <section className="container-fluid d-flex justify-content-start text-center mt-4">
       <div className="col-sm-8">
-      <img src={Night} className="img-fluid border border-light rounded"/>
+      <img src={Night} alt='' className="img-fluid border border-light rounded"/>
       <p className="mt-4 p-3 text-light">ndjendijneindine</p>
       </div>
     </section>

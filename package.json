@@ -1,9 +1,11 @@
 {
   "name": "capstone",
   "version": "0.1.0",
+  "main": "server.js",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
     "@fortawesome/free-brands-svg-icons": "^5.15.3",
@@ -15,6 +17,7 @@
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
     "bootstrap": "^5.0.1",
+    "concurrently": "^6.2.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -31,16 +34,20 @@
     "react-helmet": "^6.1.0",
     "react-jsx": "^1.0.0",
     "react-router-dom": "^5.2.0",
-    "react-script-tag": "^1.1.2",
     "react-scripts": "4.0.3",
     "server": "^1.0.33",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "webpack-cli": "^4.7.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client": "cd client && npm start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "node server.js",
+    "dev": "concurrently \"npm start\" \"cd client && npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -60,8 +67,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@babel/preset-env": "^7.14.4",
-    "webpack-cli": "^4.7.2"
-  }
+  "devDependencies": {}
 }
