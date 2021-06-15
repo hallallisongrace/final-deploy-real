@@ -39,6 +39,7 @@
     "react-scripts": "4.0.3",
     "saslprep": "^1.0.3",
     "server": "^1.0.33",
+    "watchpack-chokidar2": "^2.0.1",
     "web-vitals": "^1.1.2",
     "webpack-cli": "^4.7.2"
   },
