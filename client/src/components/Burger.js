@@ -27,7 +27,7 @@ return (
             <a className="nav-link" href="/add">Add Attractions</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/attractions">View Attractions</a>
+            <a className="nav-link" href="/Attractions">View Attractions</a>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
