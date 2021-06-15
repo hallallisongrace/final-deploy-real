@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-// import './Viewattrac.css';
+import './Viewattrac.css';
 import {BACKEND_URL} from './config'
 import {Link} from 'react-router-dom'
 
