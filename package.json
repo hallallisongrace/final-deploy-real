@@ -25,6 +25,7 @@
     "jquery-parallax.js": "^1.5.0",
     "mongodb": "^3.6.9",
     "mongoose": "^5.12.13",
+    "ngrok": "^4.0.1",
     "nodemailer": "^6.6.1",
     "popper": "^1.0.1",
     "popper.js": "^1.16.1",
