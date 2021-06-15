@@ -27,20 +27,20 @@ const connection = mongoose.connection;
 connection.once('open', () => {
   console.log("You're connected boss");
 })
-
-const contactRouter = require('./routes/route.contact');  
 const attractionRouter = require('./routes/routeattraction');  
+const contactRouter = require('./routes/route.contact');  
+
 // const { request } = require('express');
 
-    
-    app.use('/contact', contactRouter);  
     app.use('/attractions', attractionRouter);
+    app.use('/contact', contactRouter);  
+ 
 
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
+    res.sendFile(path.resolve(__dirname, 'client/build'))
   })
 }
 
