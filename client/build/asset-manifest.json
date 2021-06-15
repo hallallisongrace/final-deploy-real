@@ -1,33 +1,15 @@
 {
-  "files": {
-    "main.css": "/static/css/main.7b487d41.chunk.css",
-    "main.js": "/static/js/main.57875a16.chunk.js",
-    "main.js.map": "/static/js/main.57875a16.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c924c905.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c924c905.js.map",
-    "static/css/2.915c4fec.chunk.css": "/static/css/2.915c4fec.chunk.css",
-    "static/js/2.8fb71f53.chunk.js": "/static/js/2.8fb71f53.chunk.js",
-    "static/js/2.8fb71f53.chunk.js.map": "/static/js/2.8fb71f53.chunk.js.map",
-    "static/js/3.9c51ff5c.chunk.js": "/static/js/3.9c51ff5c.chunk.js",
-    "static/js/3.9c51ff5c.chunk.js.map": "/static/js/3.9c51ff5c.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.915c4fec.chunk.css.map": "/static/css/2.915c4fec.chunk.css.map",
-    "static/css/main.7b487d41.chunk.css.map": "/static/css/main.7b487d41.chunk.css.map",
-    "static/js/2.8fb71f53.chunk.js.LICENSE.txt": "/static/js/2.8fb71f53.chunk.js.LICENSE.txt",
-    "static/media/about.css": "/static/media/Allison&Christian-85.f9acea10.jpg",
-    "static/media/Museum.c75f5168.jpg": "/static/media/Museum.c75f5168.jpg",
-    "static/media/Night.dc8cb855.jpg": "/static/media/Night.dc8cb855.jpg",
-    "static/media/bridge.9af1e7a9.jpg": "/static/media/bridge.9af1e7a9.jpg",
-    "static/media/Viewattrac.css": "/static/media/untiont.5f26d629.jpg",
-    "static/media/cityHall.b63aa12b.jpg": "/static/media/cityHall.b63aa12b.jpg",
-    "static/media/home.css": "/static/media/downtown.58071990.jpg",
-    "static/media/weather-icons.css": "/static/media/weathericons-regular-webfont.e218aee6.woff2"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.c924c905.js",
-    "static/css/2.915c4fec.chunk.css",
-    "static/js/2.8fb71f53.chunk.js",
-    "static/css/main.7b487d41.chunk.css",
-    "static/js/main.57875a16.chunk.js"
-  ]
+  "main.css": "static/css/main.dc732df1.css",
+  "main.css.map": "static/css/main.dc732df1.css.map",
+  "main.js": "static/js/main.6bf2cdfd.js",
+  "main.js.map": "static/js/main.6bf2cdfd.js.map",
+  "static/js/0.67d6b834.chunk.js": "static/js/0.67d6b834.chunk.js",
+  "static/js/0.67d6b834.chunk.js.map": "static/js/0.67d6b834.chunk.js.map",
+  "static\\media\\Allison&Christian-85.jpg": "static/media/Allison&Christian-85.457ace02.jpg",
+  "static\\media\\Museum.jpg": "static/media/Museum.7f09c4e1.jpg",
+  "static\\media\\Night.jpg": "static/media/Night.1468f36c.jpg",
+  "static\\media\\bridge.jpg": "static/media/bridge.58dd6db9.jpg",
+  "static\\media\\cityHall.jpg": "static/media/cityHall.467e08ee.jpg",
+  "static\\media\\downtown.jpg": "static/media/downtown.906f87c6.jpg",
+  "static\\media\\hughway.jpg": "static/media/hughway.348d4a9c.jpg"
 }
