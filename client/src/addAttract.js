@@ -18,25 +18,19 @@ class addAttract extends Component {
         this.onChangeDescription = this.onChangeDescription.bind(this);
         this.onChangeWebsite = this.onChangeWebsite.bind(this);
         this.onChangeImageURL = this.onChangeImageURL.bind(this);
-        this.onChangeAddress = this.onChangeAddress.bind(this);
-        this.onChangeCity = this.onChangeCity.bind(this);
-        this.onChangeState = this.onChangeState.bind(this);
-        this.onChangeZipcode = this.onChangeZipcode.bind(this);
-        this.onChangeIndoors = this.onChangeIndoors.bind(this);
-        this.onChangeChild = this.onChangeChild.bind(this);
+        // this.onChangeAddress = this.onChangeAddress.bind(this);
+        // this.onChangeCity = this.onChangeCity.bind(this);
+        // this.onChangeState = this.onChangeState.bind(this);
+        // this.onChangeZipcode = this.onChangeZipcode.bind(this);
+        // this.onChangeIndoors = this.onChangeIndoors.bind(this);
+        // this.onChangeChild = this.onChangeChild.bind(this);
         this.onSubmit = this.onSubmit.bind(this);
         this.state = {
             name: "",
             description: "",
             website: "",
-            imageURL: "",
-            location:{
-            address: "",
-            city: "",
-            state: ""
-            },
-            indoors: 0,
-            childFriendly: 0
+            imageURL: ""
+          
         }
     }
 
@@ -60,48 +54,48 @@ class addAttract extends Component {
             imageURL: e.target.value    
         })
     }
-    onChangeAddress(e) {
-        this.setState({
-            location:{
-                ...this.state.location,
-                address: e.target.value
-            }
-        })
-    }
-    onChangeCity(e) {
-        this.setState({
-            location: {
-                ...this.state.location,
-                city: e.target.value
-            }
-        })
-    }
-    onChangeState(e) {
-        this.setState({
-            location:{
-                ...this.state.location,
-                state: e.target.value
-            }
-        })
-    }
-    onChangeZipcode(e) {
-        this.setState({
-            location: {
-                ...this.state.location,
-                state: e.target.value
-            }
-        })
-    }
-    onChangeIndoors(e) {
-        this.setState({
-            indoors: e.target.value
-        })
-    }
-    onChangeChild(e) {
-        this.setState({
-            childFriendly: e.target.value
-        })
-    }
+    // onChangeAddress(e) {
+    //     this.setState({
+    //         location:{
+    //             ...this.state.location,
+    //             address: e.target.value
+    //         }
+    //     })
+    // }
+    // onChangeCity(e) {
+    //     this.setState({
+    //         location: {
+    //             ...this.state.location,
+    //             city: e.target.value
+    //         }
+    //     })
+    // }
+    // onChangeState(e) {
+    //     this.setState({
+    //         location:{
+    //             ...this.state.location,
+    //             state: e.target.value
+    //         }
+    //     })
+    // }
+    // onChangeZipcode(e) {
+    //     this.setState({
+    //         location: {
+    //             ...this.state.location,
+    //             state: e.target.value
+    //         }
+    //     })
+    // }
+    // onChangeIndoors(e) {
+    //     this.setState({
+    //         indoors: e.target.value
+    //     })
+    // }
+    // onChangeChild(e) {
+    //     this.setState({
+    //         childFriendly: e.target.value
+    //     })
+    // }
     onSubmit(e) {
         e.preventDefault();
         const attraction = {
@@ -109,12 +103,12 @@ class addAttract extends Component {
             description: this.state.description,
             website: this.state.website,
             imageURL: this.state.imageURL,
-            location: this.state.location,
-            address: this.state.address,
-            city: this.state.city,
-            state: this.state.state,
-            indoors: this.state.indoors,
-            childFriendly: this.state.childFriendly
+            // location: this.state.location,
+            // address: this.state.address,
+            // city: this.state.city,
+            // state: this.state.state,
+            // indoors: this.state.indoors,
+            // childFriendly: this.state.childFriendly
         };
     //     console.log(BACKEND_URL + 'attractions/add', attraction)
     //     axios.post(BACKEND_URL + 'attractions/add', attraction)
@@ -124,7 +118,7 @@ class addAttract extends Component {
 
     console.log(attraction);
 
-    axios.post(BACKEND_URL + '/add', addAttract)                
+    axios.post(BACKEND_URL + '/add')                
     .then(res => console.log(res.data));
     
     window.location = '/attractions';
@@ -163,51 +157,7 @@ class addAttract extends Component {
                             value={this.state.imageURL} onChange={this.onChangeImageURL}>
                             </input>
                         </div>
-                        <div className="form-group">
-                            <label>Address: </label>
-                            <input type='text' required 
-                            className='form-control' 
-                            value={this.state.location.address} onChange={this.onChangeAddress}>
-                            </input>
-                        </div>
-                        <div className="form-group">
-                            <label>City: </label>
-                            <input type='text' required 
-                            className='form-control' 
-                            value={this.state.location.city} onChange={this.onChangeCity}>
-                            </input>
-                        </div>
-                        <div className="form-group">
-                            <label>State: </label>
-                            <input type='text' required 
-                            className='form-control' 
-                            value={this.state.location.state} onChange={this.onChangeState}>
-                            </input>
-                        </div>
-                        <div className="form-group">
-                            <label>Indoors: </label>
-                            <div className="select-style">
-                            <select required 
-                            className='form-control'
-                            onChange={this.onChangeIndoors} id="please-move">
-                                <option value=''>Select</option>
-                                <option value='1'>Indoor</option>
-                                <option value='0'>Outdoor</option>
-                            </select>
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <label>Child Friendly: </label>
-                            <div className="select-style">
-                            <select required 
-                            className='form-control move '
-                            onChange={this.onChangeChild} id="also-move">
-                                <option id="marginL" value=''>Select</option>
-                                <option value='1'>Child Friendly</option>
-                                <option value='0'>21 and over</option>
-                            </select>
-                        </div>
-                        </div>
+                       
                         <div className='form-group'>
                             <input type='submit' value="Add Attraction" className="btn-add" />
                         </div>
