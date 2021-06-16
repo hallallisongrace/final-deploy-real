@@ -14,10 +14,10 @@ import Home from './home';
 
 
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-import Attractions from './Viewattra';
+import Attractions from './Attractions';
 import addAttract from './addAttract';
 import Burger from './components/Burger';
-import SingleAttraction  from './singleatt';
+// import SingleAttraction  from './singleatt';
 
 
 
@@ -29,14 +29,14 @@ class App extends Component {
     return (
      <Router>
       <div className="maincontainer">
-        { <Burger/> } 
+        <Burger/>
 
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/Contact' component ={Contact}/>
         <Route exact path='/attractions' component ={Attractions}/>        
         <Route exact path ='/add' component= {addAttract}/>
-        <Route path = '/attractions/:id' component={SingleAttraction}/>
+        {/* <Route path = '/attractions/:id' component={SingleAttraction}/> */}
        
 
 

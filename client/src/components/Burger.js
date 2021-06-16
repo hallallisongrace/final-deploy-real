@@ -1,6 +1,8 @@
 
 import React from 'react';
 import "./burger.css"
+import { Link } from 'react-router-dom';
+
 const Burger = () => {
 
   
@@ -27,7 +29,7 @@ return (
             <a className="nav-link" href="/add">Add Attractions</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/attractions">View Attractions</a>
+            <Link className="nav-link" path to="/attractions">View Attractions</Link>
           </li>
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
