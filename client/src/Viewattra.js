@@ -12,11 +12,10 @@ const Attraction = (props) => {
                     <img className='attractionImage' src={props.attraction.imageURL} alt='attraction' />
                 </div>
                 <div>
-                    <div className='attractionTitle'>{props.attraction.title}</div>
+                    <div className='attractionTitle'>{props.attraction.name}</div>
                     <div className='attractionDescription'>{props.attraction.description}</div>
-                    <div className='attractionLocation'>{props.attraction.location}</div>
                     <a className='attractionWeb' href={props.attraction.website} target="_blank" rel="noreferrer">Visit</a>
-                </div>
+                </div>SZ
             </div>
         </div>
     )
