@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React from 'react';
 // import React from 'React';
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // images below
 import NewPort from './assets/NewPort.jpg'
 // images above
-const API_key = '61a77c269cf172ee908507307a3ccb9f';
+// const API_key = '61a77c269cf172ee908507307a3ccb9f';
 class Home extends React.Component{
   // constructor(){
   //   super();

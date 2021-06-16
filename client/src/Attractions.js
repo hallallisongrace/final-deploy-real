@@ -47,7 +47,7 @@ export default class Attractions extends Component {
     render() {
         return (
             this.state.loading === false ? (
-                <div className='attractionsr'>
+                <div className='attractions'>
                 <div className='attractionsContainer'>
                     <div className='attractionsInnerContainer'>
    <div className='jumbotron-fluid'>
