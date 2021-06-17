@@ -17,19 +17,19 @@ return (
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+            <Link className="nav-link active" aria-current="page" path to="/">Home</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about">About</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/contact">Contact</Link>
+            <Link className="nav-link" path to="/contact">Contact</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/add">Add Attractions</Link>
+            <Link className="nav-link" path to="/add">Add Attractions</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/attractions">View Attractions</Link>
+            <Link className="nav-link" path to="/attractions">View Attractions</Link>
           </li>
           <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
