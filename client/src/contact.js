@@ -64,7 +64,7 @@ import {BACKEND_URL} from './config';
     console.log(contact)
     axios.post(BACKEND_URL + 'contact/add', contact)
     .then(res=>console.log(res.data));
-    this.props.history.push('/home');
+    this.props.history.push('/');
     this.setState({
         name: '',
         email: '',
@@ -140,7 +140,7 @@ import {BACKEND_URL} from './config';
    )
 }
 }
-export default  (Contact);
+export default Contact;
 
 
 

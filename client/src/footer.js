@@ -33,7 +33,7 @@ class Footer extends React.Component
     <div className="footer-columns">
      <div ClassName="footeroptions" id="footer-left">
      <ul className="nav-item">
-      <a className="nav-link active" aria-current="page" href="/home">Home</a>
+      <a className="nav-link active" aria-current="page" href="/">Home</a>
       </ul>
         <ul className="nav-item">
               <a className="nav-link" href="/about">About</a>
