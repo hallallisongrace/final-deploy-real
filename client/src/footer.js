@@ -34,55 +34,55 @@ class Footer extends React.Component
     <div className="footer-columns">
      <div ClassName="footeroptions" id="footer-left">
      <ul className="nav-item">
-      <Link className="nav-link active" aria-current="page"path to="/">Home</Link>
+      <Link className="nav-link active" aria-current="page"to="/">Home</Link>
       </ul>
         <ul className="nav-item">
-              <Link className="nav-link" path to="/about">About</Link>
+              <Link className="nav-link" to="/about">About</Link>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" path to="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact">Contact</Link>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" path to="/add">Add Attractions</Link>
+              <Link className="nav-link" to="/add">Add Attractions</Link>
         </ul>
 
       </div>
       <div className="dropdown-container">
  <ul className="nav-item dropdown">
-              <Link className="nav-link dropdown-path toggle" path to="/#" id="navbarDropdown" role="butpath ton" data-bs-path toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Seasons
-              </Link>
+              </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <ul><Link className="dropdown-item" path to="https://cincinnatiusa.com/trip-ideas/spring"  target="_blank">Spring</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://cincinnatiusa.com/trip-ideas/summer"  target="_blank">Summer</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://cincinnatiusa.com/trip-ideas/fall"  target="_blank">Autumn</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://cincinnatiusa.com/trip-ideas/winter"  target="_blank">Winter</Link></ul>
+                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/spring">Spring</a></ul>
+                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/summer">Summer</a></ul>
+                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/fall">Autumn</a></ul>
+                <ul><a className="dropdown-item" href="https://cincinnatiusa.com/trip-ideas/winter">Winter</a></ul>
               </ul>
               </ul>
               <ul className="nav-item dropdown">
-              <Link className="nav-link dropdown-path toggle" path to="/#" id="navbarDropdown2" role="butpath ton" data-bs-path toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Destinations
-              </Link>
+              </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul><Link className="dropdown-item" path to="https://wandercincinnati.com/2019/12/01/over-the-rhine-cincinnati/"  target="_blank">Over the Rhine</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/" target="_blank" >Smale Riverfront Park</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://www.downpath towncincinnati.com/"  target="_blank">Downpath town</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://www.meetnky.com/" target="_blank" >Covingpath ton/Northern Kentucky</Link></ul>
+                <ul><a className="dropdown-item" href="https://wandercincinnati.com/2019/12/01/over-the-rhine-cincinnati/">Over the Rhine</a></ul>
+                <ul><a className="dropdown-item" href="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/">Smale Riverfront Park</a></ul>
+                <ul><a className="dropdown-item" href="https://www.downtowncincinnati.com/">Downtown</a></ul>
+                <ul><a className="dropdown-item" href="https://www.meetnky.com/">Covington/Northern Kentucky</a></ul>
               </ul>
               </ul>
               <ul className="nav-item dropdown">
-              <Link className="nav-link dropdown-path toggle" path to="/#" id="navbarDropdown3" role="butpath ton" data-bs-path toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Experiences
-              </Link>
+              </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <ul><Link className="dropdown-item" path to="https://www.citybeat.com/arts-culture" target="_blank" >Culture</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://www.tripadvisor.com/Attractions-g5503747-Activities-c61-The_Cincinnati_Region.html" target="_blank" >Outdoors</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://phopath tos.citybeat.com/25-essential-foods-every-cincinnati-visipath tor-should-try/?slide=1&admin-ajaxwew" target="_blank" >Food</Link></ul>
-                <ul><Link className="dropdown-item" path to="https://anniewearsit.com/cincinnati-official-travel-guide/" target="_blank" >Luxury</Link></ul>
+                <ul><a className="dropdown-item" href="https://www.citybeat.com/arts-culture">Culture</a></ul>
+                <ul><a className="dropdown-item" href="https://www.tripadvisor.com/Attractions-g5503747-Activities-c61-The_Cincinnati_Region.html">Outdoors</a></ul>
+                <ul><a className="dropdown-item" href="https://photos.citybeat.com/25-essential-foods-every-cincinnati-visitor-should-try/?slide=1&admin-ajaxwew">Food</a></ul>
+                <ul><a className="dropdown-item" href="https://anniewearsit.com/cincinnati-official-travel-guide/">Luxury</a></ul>
               </ul>
             </ul>
             <ul className="nav-item">
-              <Link className="nav-link" path to="/attractions">View Attractions</Link>
+              <Link className="nav-link" to="/attractions">View Attractions</Link>
          </ul>
     
           {/* <h3 id="kable-title"></h3> */}
@@ -100,8 +100,8 @@ class Footer extends React.Component
     <h3 id="dom-title">Domynique Shelby</h3>
     
     <div className="shelby-icons">
-    <Link path to="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></Link> 
-    <Link path to="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+    <Link href="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></Link> 
+    <Link href="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
     </div>
     </div>
     
@@ -111,8 +111,8 @@ class Footer extends React.Component
       <h3 id="phil-title">Philicia Watson</h3>
     </div>
     <div className="watson-icons">
-        <Link path to="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></Link> 
-        <Link path to="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+        <Link href="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></Link> 
+        <Link href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
     </div>
     </div>
 
@@ -121,8 +121,8 @@ class Footer extends React.Component
     <h3 id="all-title">Allison Hall</h3>
     </div>
     <div className="hall-icons">
-    <Link path to="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></Link> 
-    <Link path to="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+    <Link href="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></Link> 
+    <Link href="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
      </div>
      </div>
     
