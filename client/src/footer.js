@@ -34,16 +34,16 @@ class Footer extends React.Component
     <div className="footer-columns">
      <div ClassName="footeroptions" id="footer-left">
      <ul className="nav-item">
-      <Link className="nav-link active" aria-current="page" href="/">Home</Link>
+      <Link className="nav-link active" aria-current="page"to="/">Home</Link>
       </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/about">About</Link>
+              <Link className="nav-link" to="/about">About</Link>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact">Contact</Link>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/add">Add Attractions</Link>
+              <Link className="nav-link" to="/add">Add Attractions</Link>
         </ul>
 
       </div>
@@ -82,7 +82,7 @@ class Footer extends React.Component
               </ul>
             </ul>
             <ul className="nav-item">
-              <Link className="nav-link" href="/attractions">View Attractions</Link>
+              <Link className="nav-link" to="/attractions">View Attractions</Link>
          </ul>
     
           {/* <h3 id="kable-title"></h3> */}
