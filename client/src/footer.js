@@ -100,8 +100,8 @@ class Footer extends React.Component
     <h3 id="dom-title">Domynique Shelby</h3>
     
     <div className="shelby-icons">
-    <Link href="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></Link> 
-    <Link href="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+    <a href="https://github.com/dshelby24" ><FontAwesomeIcon icon={faGithub}/></a> 
+    <a href="https://www.linkedin.com/in/domynique-v-shelby/" ><FontAwesomeIcon icon={faLinkedin}/></a> 
     </div>
     </div>
     
@@ -111,8 +111,8 @@ class Footer extends React.Component
       <h3 id="phil-title">Philicia Watson</h3>
     </div>
     <div className="watson-icons">
-        <Link href="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></Link> 
-        <Link href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+        <a href="https://github.com/PhiliciaWatson" ><FontAwesomeIcon icon={faGithub}/></a> 
+        <a href="https://www.linkedin.com/in/philicia-watson-b26bba1b1/" ><FontAwesomeIcon icon={faLinkedin}/></a> 
     </div>
     </div>
 
@@ -121,8 +121,8 @@ class Footer extends React.Component
     <h3 id="all-title">Allison Hall</h3>
     </div>
     <div className="hall-icons">
-    <Link href="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></Link> 
-    <Link href="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></Link> 
+    <a href="https://github.com/hallallisongrace" ><FontAwesomeIcon icon={faGithub}/></a> 
+    <a href="https://linkedin.com/in/hallallisongrace" ><FontAwesomeIcon icon={faLinkedin}/></a> 
      </div>
      </div>
     
